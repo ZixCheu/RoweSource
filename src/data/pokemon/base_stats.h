@@ -60983,7 +60983,7 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_DIANCIE_MEGA] =
     {
-        .baseHP        = 50,
+        .baseHP        = 100,
         .baseAttack    = 160,
         .baseDefense   = 110,
         .baseSpeed     = 110,
@@ -61002,7 +61002,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_MAGIC_BOUNCE, ABILITY_MAGIC_BOUNCE},
+            .abilities = {ABILITY_FAIRY_AURA, ABILITY_FAIRY_AURA},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
